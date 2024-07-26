@@ -28,7 +28,11 @@ In order to reach our goal, we used the standard data science process flow.
     After imputing the data and ensuring the null values to be 0, we then moved on to some basic EDA of looking at top 10 and bottom 10 countries for each of the features.
     To prepare for the models we had to first create our professional wellbeing score 0-1. Once we successfully created the score, we then used to move to model building. 
 
-4.	Model Building: 
+4.	4.	Model Building: For model building we scaled and split the data into training and testing sets and build some   simple models to check the performance of our dataset. We started off with Linear Regression Model. The result for linear regression suggests that the model is fitting the training data almost perfectly which indicated the problem of overfitting. 
+-	Linear Regression:
+-	MSE: 6.22747124967587e-32
+-	R2: 1.0
+
 
 
 # Next Steps / Future Considerations
