@@ -94,14 +94,14 @@ The explanation function generates explanations for an entity's professional wel
     - OpenAI Whisper is a powerful and flexible tool for transcribing and analyzing audio files, we tried to connect it with our Gradio App for the explanations and suggestions features, however there were audio connection issues. 
 
 # Next Steps /Future Considerations
-Refining the models
-Expanding the dataset to look at other factors such as women personal and social wellbeing globally. 
+- Refining the models
+- Expanding the dataset to look at other factors such as women personal and social wellbeing globally. 
 
 Future Considerations
-Use more advance machine learning techniques such as deep learning and transfer learning 
-Incorporating additional data sources
-Developing a more sophisticated explanations function that can provide more detailed and actionable insights into the factors influencing an entity's professional wellbeing score.
-Creating a more user-friendly interface such as integrating whisper 
+- Use more advance machine learning techniques such as deep learning and transfer learning 
+- Incorporating additional data sources
+- Developing a more sophisticated explanations function that can provide more detailed and actionable insights into the factors influencing an entity's professional wellbeing score.
+- Creating a more user-friendly interface such as integrating whisper 
 
 # References 
 - Xpert Learning 
