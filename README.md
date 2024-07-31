@@ -84,4 +84,28 @@ Building Gradio App: To view the professional well-being score for each entity i
 To make the project goals and results more interactive, we incorporated explanations and suggestions functions to display on the Gradio app by calling LLM-OPENAI through an API key.
 The explanation function generates explanations for an entity's professional well-being score based on its feature values compared to the average values across all entities. The suggestions function generates suggestions to improve an entity's professional well-being based on its explanations.
 
-# Next Steps / Future Considerations
+
+# Things we tried: 
+- Additional Models: 
+    - Randomized Search Cv, however we got the following error, The error you're encountering indicates that the target variable (y) has continuous values, which is not suitable for a RandomForestClassifier because it expects categorical labels for classification tasks. If your task involves predicting continuous values, you should use a regression model instead, like RandomForestRegressor
+
+    - Valence Aware Dictionary for Sentiment Reasoning (VADER) is a powerful tool for sentiment analysis and it’s widely used in natural language processing applications. VADER is primarily designed for short texts and is not a machine learning classifier and was not suitable for our project as its primary function is sentiment analysis and we were looking at scores for overall professional well-being.
+
+    - OpenAI Whisper is a powerful and flexible tool for transcribing and analyzing audio files, we tried to connect it with our Gradio App for the explanations and suggestions features, however there were audio connection issues. 
+
+# Next Steps /Future Considerations
+Refining the models
+Expanding the dataset to look at other factors such as women personal and social wellbeing globally. 
+
+Future Considerations
+Use more advance machine learning techniques such as deep learning and transfer learning 
+Incorporating additional data sources
+Developing a more sophisticated explanations function that can provide more detailed and actionable insights into the factors influencing an entity's professional wellbeing score.
+Creating a more user-friendly interface such as integrating whisper 
+
+# References 
+- Xpert Learning 
+- ChatGpt 
+- Google Search 
+- Peer Support 
+- Instructor Support 
